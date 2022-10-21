@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+    android:id="@+id/linearLayout_itme"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
@@ -11,13 +13,14 @@
         android:gravity="center"
         android:text="这是列表项的某一行。"
         android:textSize="40sp" />
+
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="..."
         android:textSize="40sp" />
 </LinearLayout>
